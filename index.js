@@ -6,4 +6,4 @@ const server = http.createServer((req, res) => {
   res.end(nodeinfo(req));
 });
 
-server.listen(3000, () => console.log('Listening on port 3000'));
+server.listen(process.env.PORT, () => console.log(`Listening on port ${process.env.PORT}`));
