@@ -21,3 +21,9 @@ jobs:
             --push \
             --tag ei99070/docker-nodejs-info:latest \
             --platform linux/arm64/v8,linux/amd64,linux/arm/v6,linux/arm/v7,linux/386 .
+      - name: update the image description
+        uses: peter-evans/dockerhub-description@v2.3.0
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKERHUB_REPOSITORY: ei99070/docker-nodejs-info
