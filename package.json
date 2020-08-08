@@ -1,0 +1,22 @@
+{
+  "name": "server-nodejs-info",
+  "version": "1.0.0",
+  "description": "Simple server for nodejs-info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroLamas/docker-nodejs-info.git"
+  },
+  "author": "Pedro Lamas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PedroLamas/docker-nodejs-info/issues"
+  },
+  "homepage": "https://github.com/PedroLamas/docker-nodejs-info#readme",
+  "dependencies": {
+    "nodejs-info": "^1.2.1"
+  }
+}
