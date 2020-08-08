@@ -19,5 +19,6 @@ jobs:
         run: |
           docker buildx build \
             --push \
-            --tag ei99070/docker-nodejs-info:latest,ei99070/docker-nodejs-info:${{ github.sha }} |
+            --tag ei99070/docker-nodejs-info:latest \
+            --tag ei99070/docker-nodejs-info:${{ github.sha }} \
             --platform linux/arm64/v8,linux/amd64,linux/arm/v6,linux/arm/v7,linux/386 .
