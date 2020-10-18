@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PedroLamas/docker-nodejs-info.git"
+    "url": "git+https://github.com/pedrolamas/docker-nodejs-info.git"
   },
   "author": "Pedro Lamas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PedroLamas/docker-nodejs-info/issues"
+    "url": "https://github.com/pedrolamas/docker-nodejs-info/issues"
   },
-  "homepage": "https://github.com/PedroLamas/docker-nodejs-info#readme",
+  "homepage": "https://github.com/pedrolamas/docker-nodejs-info#readme",
   "dependencies": {
     "nodejs-info": "^1.2.1"
   }
