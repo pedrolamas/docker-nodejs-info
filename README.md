@@ -1,6 +1,6 @@
 # docker-nodejs-info
 
-[![Project Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/pedrolamas/docker-nodejs-info 'GitHub Repository')
+[![Project Maintenance](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/pedrolamas/docker-nodejs-info 'GitHub Repository')
 [![License](https://img.shields.io/github/license/pedrolamas/docker-nodejs-info.svg)](https://github.com/pedrolamas/docker-nodejs-info/blob/master/LICENSE 'License')
 
 [![CI](https://github.com/pedrolamas/docker-nodejs-info/workflows/CI/badge.svg)](https://github.com/pedrolamas/docker-nodejs-info/actions 'Build Status')
